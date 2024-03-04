@@ -15,7 +15,8 @@ app.use(cors({
   credentials: true,
 }));
 
-app.use(express.static("public"))
+app.use(express.static(path.join(__dirname, "../../frontend/dist")));
+
 
 app.use(cookieParser());
 
