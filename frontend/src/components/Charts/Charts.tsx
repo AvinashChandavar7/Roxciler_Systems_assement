@@ -50,7 +50,7 @@ const Charts = () => {
         {pieChartData && <PieChartData {...pieChartData} />}
       </div>
 
-      <div className="grid grid-cols-1 ">
+      <div className="grid grid-cols-1 min-h-[400px]">
 
         {barChartData && <BarChartData data={barChartData.data} />}
       </div>
